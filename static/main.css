@@ -1,0 +1,197 @@
+/* ===== Base Styles ===== */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa; 
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+/* ===== Navbar ===== */
+.custom-navbar {
+    background-color: #1a1a1a !important; 
+    transition: all 0.3s ease;
+}
+
+.main-content {
+    margin-top: 100px;
+}
+
+.tracking-wider {
+    letter-spacing: 1px;
+}
+
+/* ===== Sidebar ===== */
+.sidebar-card {
+    border-radius: 12px;
+    background: #fff;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.list-group-item-action:hover {
+    background-color: transparent !important;
+    color: #007bff !important;
+    padding-left: 5px !important;
+    transition: all 0.2s ease;
+}
+
+/* ===== Talent Feed / Cards ===== */
+.talent-post {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+.talent-post:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08) !important;
+}
+
+.talent-author {
+    font-weight: 600;
+    color: #007bff;
+}
+
+.talent-content {
+    color: #6c757d;
+    line-height: 1.6;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.badge-soft-primary {
+    background-color: #e7f1ff;
+    color: #007bff;
+    border-radius: 8px;
+    font-size: 0.85rem;
+}
+
+/* ===== Auth & Forms ===== */
+.auth-card {
+    border-radius: 20px;
+    background: #fff;
+    border: none;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.custom-input {
+    border: 2px solid #edf2f7;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.custom-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.1);
+    background-color: #fff;
+    outline: none;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+    color: #4a5568;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+/* ===== About Page ===== */
+.about-card {
+    border-radius: 16px;
+    background: #ffffff;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.badge-primary.rounded-circle {
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+hr {
+    border-top: 1px solid rgba(0,0,0,.05);
+}
+/* ===== Red & White Header Theme ===== */
+
+.custom-navbar {
+    background-color: #dc3545 !important; /* Bootstrap Danger Red */
+    /* Alternative: #e63946 for a more modern vibrant red */
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 0;
+}
+
+/* The "Finder" part of the logo */
+.brand-accent {
+    color: rgba(255, 255, 255, 0.8); /* Slightly faded white for contrast */
+    font-weight: 300;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.nav-link:hover {
+    opacity: 0.8;
+    color: #ffffff !important;
+}
+
+/* Adjustment for the main content to clear the taller navbar */
+.main-content {
+    margin-top: 110px;
+}
+
+/* If you want the "Register" button to feel extra "Clutch" */
+.btn-light {
+    background-color: #ffffff;
+    border: none;
+    color: #dc3545 !important; /* Matches the navbar red */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-light:hover {
+    background-color: #f8f9fa;
+    transform: scale(1.05);
+}
+.custom-navbar {
+    background-color: #0f172a !important; /* Midnight Black */
+    padding: 12px 0;
+}
+
+.brand-clutch {
+    color: #ef4444; /* Vibrant Red */
+}
+
+.main-content {
+    margin-top: 100px; /* Ensures content doesn't hide under fixed navbar */
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
